@@ -1,24 +1,2 @@
-<div class="text-layout">
-  <h1>{{ nombre | titlecase }}</h1>
-</div>
-
-<button
-  pButton
-  (click)="mostrarNombre()"
-  icon="pi pi-bell"
-  iconPos="right"
-  class="p-button-help"
-  label="Cambiar nombre"
-></button>
-
-
-<p-card [header]="nombre | titlecase"
-        subheader="Esto es un subheader">
-  <p>
-    Amet dolor irure fugiat irure mollit non ut. Mollit est deserunt tempor sunt quis amet aliqua 
-    aliquip ullamco sit laboris elit. Ad velit in ad aliqua anim magna consectetur enim non occaecat. 
-    Do cupidatat esse elit cillum aute est eu nulla ad et aliquip occaecat est voluptate. Nisi est sunt 
-    labore commodo officia pariatur sunt proident tempor dolore pariatur eiusmod labore sint. In amet 
-    cupidatat occaecat fugiat aliquip.
-  </p>
-</p-card>
+<app-menu></app-menu>
+<router-outlet></router-outlet>
