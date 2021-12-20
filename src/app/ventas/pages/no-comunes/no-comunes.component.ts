@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { interval } from 'rxjs';
-import { tap } from 'rxjs/operators';
 
 @Component({
   selector: 'app-no-comunes',
