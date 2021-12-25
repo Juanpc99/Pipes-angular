@@ -9,4 +9,3 @@ export class MayusculasPipe implements PipeTransform{
         return (enMayusculas) ? texto.toUpperCase() : texto.toLowerCase();
     }
 }
-
